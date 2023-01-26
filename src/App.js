@@ -14,48 +14,48 @@ function App() {
         </div>
       </header>
       {/* main  */}
-      <div className='bg-[#F7F4E9] p-5 md:p-5 h-[50vh] justify-center md:justify-start md:h-screen items-center flex flex-col space-y-10'>
+      <div className='bg-[#F7F4E9] p-5 md:p-5 h-[50vh] justify-center md:h-screen items-center flex flex-col space-y-10'>
         <div className='text-center'>
-          <h1 className='text-2xl md:text-8xl font-bold'><span className='text-[#F4410B] text-center'>Craft</span> your way up,</h1>
-          <h1 className='text-2xl md:text-8xl font-bold'><span className='text-[#F4410B] text-center'>to</span> Suceess</h1>
+          <h1 className='text-2xl md:text-7xl font-bold'><span className='text-[#F4410B] text-center'>Craft</span> your way up,</h1>
+          <h1 className='text-2xl md:text-7xl font-bold'><span className='text-[#F4410B] text-center'>to</span> Suceess</h1>
         </div>
         <div className='text-center'>
-          <p className='text-xl md:text-4xl '>Bring the will to Succeed,</p>
-          <p className='text-xl md:text-4xl'>Get the Mentors & Opportunities</p>
+          <p className='text-xl md:text-3xl '>Bring the will to Succeed,</p>
+          <p className='text-xl md:text-3xl'>Get the Mentors & Opportunities</p>
         </div>
         <p className='px-5 md:px-[5%] py-3 md:py-4  rounded-full cursor-pointer  text-white font-bold text-xl bg-[#EB480C] shadow-xl shadow-white'>ENROLL NOW</p>
 
       </div>
 
       {/* about */}
-      <div className='bg-[#F7F4E9] p-2 md:py-[5%]  items-center flex flex-col space-y-10'>
+      <div className='bg-[#F7F4E9] p-2 md:py-[4%]  items-center flex flex-col space-y-10'>
 
-        <h1 className='text-2xl md:text-7xl font-bold'>Invact Folio = Job Opportunities</h1>
+        <h1 className='text-xl md:text-6xl font-bold'>Invact Folio = Job Opportunities</h1>
         <div className="text-center">
-          <p className='text-lg md:text-3xl'>Resumes alone don’t cut it anymore.</p>
-          <p className='text-lg md:text-3xl'>Companies are looking for candidates that can solve problems and create solutions.</p>
+          <p className='text-lg md:text-2xl'>Resumes alone don’t cut it anymore.</p>
+          <p className='text-lg md:text-2xl'>Companies are looking for candidates that can solve problems and create solutions.</p>
         </div>
         <div className="text-center">
-          <p className='text-lg md:text-3xl'>Invact solves these hurdles on your path to success, so you can</p>
-          <p className='text-lg md:text-3xl'> learn well, grow strong and build powerful Folios to win opportunities.</p>
+          <p className='text-lg md:text-2xl'>Invact solves these hurdles on your path to success, so you can</p>
+          <p className='text-lg md:text-2xl'> learn well, grow strong and build powerful Folios to win opportunities.</p>
         </div>
       </div>
       {/* features  */}
 
-      <div className='bg-[#F7F4E9] p-5 md:p-[5%]  items-center flex flex-col md:flex-row justify-center space-y-5  '>
+      <div className='bg-[#F7F4E9] p-5 md:p-[5%]  items-center flex flex-col md:flex-row justify-center space-y-5 md:space-y-0 '>
 
         <div className='w-full md:w-[29%] space-y-6 text-center p-2 md:p-5'>
-          <img src="https://invact.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcraft_icon_v3.8117e99c.webp&w=1920&q=75" alt="" />
+          <img src="https://invact.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcraft_icon_v3.8117e99c.webp&w=1920&q=75" alt="" className="object-contain" />
           <h1 className='text-lg md:text-2xl font-semibold'>Craft amazing Folios of Solutions</h1>
           <p className=' md:text-lg'>Crafting Folios that showcase your ability to create solutions is part of the courses you do, boosting your employment opportunities.</p>
         </div>
         <div className='w-full md:w-[29%] space-y-6 text-center p-2 md:p-5'>
-          <img src="https://invact.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmentor_icon_v3.25e49bc3.webp&w=1920&q=75" alt="" />
+          <img src="https://invact.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmentor_icon_v3.25e49bc3.webp&w=1920&q=75" alt="" className="object-contain" />
           <h1 className='text-lg md:text-2xl font-semibold'>Mentorship by Industry Leaders</h1>
           <p className=' md:text-lg'>Mentors with global industry experience to guide you on your journey for impactful and effective growth and learning, for life.</p>
         </div>
         <div className='w-full md:w-[29%] space-y-6 text-center p-2 md:p-5'>
-          <img src="https://invact.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmetaversity_icon_v3.3a56585e.webp&w=1920&q=75" alt="" />
+          <img src="https://invact.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmetaversity_icon_v3.3a56585e.webp&w=1920&q=75" alt="" className="object-contain" />
           <h1 className='text-lg md:text-2xl font-semibold'>Metaverse + University = Metaversity</h1>
           <p className='text- md:text-lg'>Peer-to-peer learning with the community, engaging interactions, feedback loops in metaverse for a real-world experience.</p>
         </div>
@@ -125,7 +125,7 @@ function App() {
           <img src="https://invact.com/images/course/courseImage_v2.webp" alt="" className='object-contain w-full md:w-[50%]' />
           <div className='space-y-6 p-2 text-left'>
             <p className='text-2xl md:text-5xl font-semibold'>Invact <span className='text-[hsl(13.91,91.37%,50%)]'>Finance Program</span></p>
-            <p className=' font-medium'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero delectus laudantium eos, impedit quasi optio saepe quia iure? Officia similique excepturi ea, quam labore voluptates totam nostrum quasi laborum quod repellat tempore esse ipsam magnam culpa neque debitis vel odit.</p>
+            <p className=' font-medium'> A 6-month program, divided into 4 courses, designed to take you from zero to expert level in the Finance field. To join the course, you need to complete the 5 proofs of work comprising basic exercises using Excel and Google Slides. Click below button to know more about the program.</p>
             <p className='px-3 py-3 text-center max-w-[12rem]  rounded-full cursor-pointer  text-white font-bold text-lg bg-[#EB480C] shadow-xl shadow-white'>VIEW DETAIL</p>
 
           </div>
@@ -134,9 +134,9 @@ function App() {
       </div>
 
       {/* video  */}
-      <div className='bg-white p-5 md:p-[5%] items-center justify-center h-[25vh] md:h-screen flex flex-col space-y-10 relative'>
-        <video src="https://invact.com/videos/Website_Video_Blured_v2.mp4" autoPlay muted loop className='absolute top-0 right-0 left-0 bottom-0'></video>
-        <div className='absolute md:top-1/2 md:left-[24%] text-center space-y-4'>
+      <div className='bg-[#F3F6FD]  items-center justify-center h-[25vh] md:h-screen flex flex-col space-y-10 relative'>
+        <video src="https://invact.com/videos/Website_Video_Blured_v2.mp4" autoPlay muted loop  className='w-full  '></video>
+        <div className='text-center space-y-4 absolute top-[40%'>
           <h2 className=' text-3xl md:text-7xl font-bold text-white'>Explore</h2>
           <h2 className=' text-3xl md:text-7xl font-bold  text-white'>Invact Metaversity</h2>
         </div>
