@@ -67,8 +67,8 @@ function App() {
 
         <h1 className='text-3xl md:text-7xl font-bold'>Invact Courses for You</h1>
         <div className=' flex flex-col md:flex-row text-center  justify-center items-center max-w-6xl mx-auto relative'>
-          <div className='flex-1 '>
-            <img src="https://invact.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcore_icon_v3.81b08bcd.webp&w=3840&q=75" alt="" className='bottom-44' />
+          <div className='flex-[0.9] '>
+            <img src="https://invact.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcore_icon_v3.81b08bcd.webp&w=3840&q=75" alt="" className='bottom-44 bg-contain' />
           </div>
           <div className='md:w-[40%] space-y-1 md:space-y-4 text-left'>
             <h1 className='text-lg md:text-6xl font-bold'>Start with a</h1>
@@ -80,7 +80,7 @@ function App() {
         </div>
 
         <div className=' flex flex-col text-center md:flex-row-reverse  justify-center items-center max-w-6xl mx-auto relative'>
-          <div className='flex-1 '>
+          <div className='flex-[0.9] '>
             <img src="https://invact.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffoundation_icon_v3.789cb5f0.webp&w=3840&q=75" alt="" className='bottom-44' />
           </div>
           <div className='md:w-[40%] space-y-1 md:space-y-4 text-left'>
@@ -92,7 +92,7 @@ function App() {
         </div>
 
         <div className=' flex flex-col md:flex-row text-center  justify-center items-center max-w-6xl mx-auto relative'>
-          <div className='flex-1 '>
+          <div className='flex-[0.9] '>
             <img src="https://invact.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fprofessional_icon_v1.62f3d35a.webp&w=3840&q=75" alt="" className='bottom-44' />
           </div>
           <div className='md:w-[40%] space-y-1 md:space-y-4 text-left'>
@@ -104,7 +104,7 @@ function App() {
           <img src="https://invact.com/firstline.svg" alt="" className='hidden md:inline-flex absolute w-1/2 bottom-[-12rem] left-[15rem]' />
         </div>
         <div className='flex flex-col text-center md:flex-row-reverse justify-center items-center max-w-6xl mx-auto relative'>
-          <div className='flex-1 '>
+          <div className='flex-[0.9] '>
             <img src="https://invact.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffellowship_icon_v3.3c3a0169.webp&w=3840&q=75" alt="" className='bottom-44' />
           </div>
           <div className='md:w-[40%] space-y-1 md:space-y-4 text-left'>
