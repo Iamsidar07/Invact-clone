@@ -14,7 +14,7 @@ function App() {
         </div>
       </header>
       {/* main  */}
-      <div className='bg-[#F7F4E9] p-5 md:p-5 h-[50vh] justify-center md:h-screen items-center flex flex-col space-y-10'>
+      <div className='bg-[#F7F4E9] p-5 md:p-5 h-[95vh] justify-center md:h-screen items-center flex flex-col space-y-10'>
         <div className='text-center'>
           <h1 className='text-2xl md:text-7xl font-bold'><span className='text-[#F4410B] text-center'>Craft</span> your way up,</h1>
           <h1 className='text-2xl md:text-7xl font-bold'><span className='text-[#F4410B] text-center'>to</span> Suceess</h1>
